@@ -1,0 +1,71 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background: url(https://th.bing.com/th/id/R.b16d909fa4fbf4f57c549e8a956ae81c?rik=8rNg3xNaiOKSEg&riu=http%3a%2f%2fblog.visme.co%2fwp-content%2fuploads%2f2017%2f07%2f50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg&ehk=MJ0IIyVZy8ftpAbUbTl2l8BeGcW%2beeqEnsaddK9N9vI%3d&risl=&pid=ImgRaw&r=0);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    min-height: 30%;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+
+
+
+}
+
+button {
+    --c: #fff;
+    /* text color */
+
+    background:
+        linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat,
+        #0262e9;
+    /* background color */
+    color: #0000;
+    border: none;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i, -1)));
+    text-shadow:
+        calc(var(--_i, -1)* 0.08em) -.01em 0 var(--c),
+        calc(var(--_i, -1)*-0.08em) .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus-visible {
+    --_p: 0%;
+    --_i: 1;
+}
+
+button:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
+}
+
+
+
+button {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    cursor: pointer;
+    /* padding: .1em .3em; */
+}

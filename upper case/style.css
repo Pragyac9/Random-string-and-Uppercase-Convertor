@@ -1,0 +1,18 @@
+body {
+    background: url(https://i.pinimg.com/originals/17/41/81/1741816bb34c7081cb5599ac446ba522.jpg);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* border: 2px solid rgb(230, 7, 230); */
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    /* min-height: 50%; */
+    /* background-color: #d60808; */
+}
